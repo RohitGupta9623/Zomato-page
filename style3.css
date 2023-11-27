@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#title{
+    position: relative;
+    font-size: 30px;
+    left: 90px;
+    font-family: "Times New Roman";
+}
+/* ---------------------------search-section--------------------------- */
+form{
+    display: flex;
+}
+[type="text"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 190px;
+    cursor: pointer;
+    border: 1px solid #eeeaea;
+    top: -30px;
+}
+[type="submit"]{
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+    width: 55px;
+    border-radius: 5px;
+    border: 1px solid #eae9e9;
+    background-color: yellow;
+    top: -30px;
+}
+/* ------------------------signup-login-section-------------------------- */
+.btn01{
+    position: relative;
+    left: 670px;
+    font-family: "Times New Roman";
+    top: -55px;
+    border:none;
+    background-color: #fff;
+    color: #565454;
+    cursor: pointer;
+}
+.btn02{
+    position: relative;
+    left: 690px;
+    top: -55px;
+    border: none;
+    font-family: "Times New Roman";
+    background-color: #fff;
+    color: #4f4d4d;
+    cursor: pointer;
+}
+.tittle010{
+    position: relative;
+    left: 90px;
+    font-family: "Times New Roman";
+    top: -40px;
+    font-size: 8px;
+    color: #464646;
+    cursor: pointer;
+}
+#big-img img{
+    width: 80%;
+    height: 270px;
+    position: relative;
+    left: 90px;
+    top: -20px;
+    border-radius: 5px;
+}
+#big-img h5{
+    position: relative;
+    top: -20px;
+    left: 90px;
+    font-size: 22px;
+    font-family: serif;
+    font-weight: 100;
+}
+#big-img h6{
+    position: relative;
+    top: -20px;
+    left: 90px;
+    font-size: 11px;
+    font-family: serif;
+    font-weight: 100;
+}

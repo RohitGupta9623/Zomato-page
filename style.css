@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#title{
+    padding-left: 10px;
+}
+.menu-bar{
+    width: 100%;
+    height: 320px;
+    background-image: url(Image-section/01.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    background-size: cover;
+}
+.menu-bar ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    padding-right: 20px;
+    margin-top: -20px;
+    display: flex;
+}
+
+.menu-bar ul li{
+    margin: 0 10px;
+   
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(242, 242, 247);
+}
+.mid-txt{
+    font-size: 55px;
+    color: #f1e9e9;
+    text-align: center;
+    margin-top: 50px;
+}
+#mid-txt{
+    font-size: 35px;
+    color: #0f0e0e;
+    text-align: center;
+    margin-top: 50px;
+}
+#mid-txt01{
+    font-size: 35px;
+    color: #0f0e0e;
+    text-align: center;
+    margin-top: 50px;
+    margin-top: 70px;
+}
+#small-txt{
+    font-size: 15px;
+    position: relative;
+    gap: 1px;
+    left: 150px;
+    top: 10px;
+    
+}
+#small-txt01{
+    padding-left: 150px;
+}
+#state{
+    font-size: 35px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    right: 90px;
+}
+#state button{
+    width: 220px;
+    height: 40px;
+    border: 0.20px solid #c4c0c0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+#state button a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* ----------------footer------------------ */
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #161313;
+  color: #f4efef;
+  display: inline-flex;
+  margin-top: 50px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 0.20px solid #c4c0c0;
+
+}
+.footer-bar h1{
+    padding-left: 90px;
+    font-size: 30px;
+}
+.padrauna{
+    position: relative;
+    top: 20px;
+    left: 110px;
+    font-size: 8px;
+}
+.footer-bar h6{
+    position: relative;
+    left: 115px;
+    top: 23px;
+    margin: 7px;
+    font-size: 8px;
+}
+.padrauna01{
+    font-size: 8px;
+    position: relative;
+    left: 50px;
+    top: 55px;
+}
+#footer-bar01 h6{
+    position: relative;
+    left: 50px;
+    top: 55px;
+    font-size: 8px;
+    margin: 8px;
+}
+.padrauna02{
+    font-size: 8px;
+    position: relative;
+    left: 80px;
+    top: 55px;
+}
+#footer-bar02 h6{
+    position: relative;
+    left: 80px;
+    top: 52px;
+    font-size: 8px;
+    margin: 8px;
+}
+.padrauna03{
+    font-size: 8px;
+    position: relative;
+    left: 115px;
+    top: 55px;
+}
+#footer-bar03 h6{
+    position: relative;
+    left: 110px;
+    top: 55px;
+    font-size: 8px;
+    margin: 8px;
+}
+.padrauna04{
+    font-size: 8px;
+    position: relative;
+    left: 140px;
+    top: 55px;
+}
+#footer-bar04 h6{
+    position: relative;
+    left: 140px;
+    top: 55px;
+    font-size: 8px;
+    margin: 8px;
+}
+.Social-Section h5{
+    position: relative;
+    left: 230px;
+    top: 52px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Social-Section img{
+    position: relative;
+    left: 200px;
+    top: 55px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: red;
+    color: #0011cc;
+}
+i,.fa-linkedin{
+    width: 100px;
+    height: 100px;
+    color: #0011cc;
+    background-color: #00cc11;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
